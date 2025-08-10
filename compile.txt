@@ -1,0 +1,1 @@
+g++ main.cpp get_user_dir.cpp copy_paste.cpp json_ops.cpp write_read_files.cpp $(pkg-config --cflags --libs gtk+-3.0) -o main
