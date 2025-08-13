@@ -60,7 +60,8 @@
         "ranges": "cpp",
         "span": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "list": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.dimInactiveRegions": false

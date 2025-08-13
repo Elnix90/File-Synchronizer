@@ -95,7 +95,7 @@ std::unordered_set<fs::path> read_paths_from_file(const fs::path& filename) {
         paths.insert(path);
         n++;
     }
-    std::cout << n << " paths found" << std::endl;
+    // std::cout << n << " paths found" << std::endl;
     
     file.close();
     return paths;

@@ -1,0 +1,1 @@
+g++ main.cpp FUNCTIONS/backup_and_erase.cpp FUNCTIONS/compute_files.cpp FUNCTIONS/copy_paste.cpp FUNCTIONS/get_user_dir.cpp FUNCTIONS/json_ops.cpp FUNCTIONS/list_files.cpp FUNCTIONS/write_read_files.cpp $(pkg-config --cflags --libs gtk+-3.0) -o main
