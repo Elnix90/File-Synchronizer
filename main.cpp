@@ -15,11 +15,11 @@ int main() {
 
     create_base_and_data_dirs();
 
-    // const fs::path entry_dir_file =          data_base / "source_dirs.txt";
-    // const fs::path backup_dir_file =         data_base / "backup_dir.txt";
+    const fs::path entry_dir_file =          data_base / "source_dirs.txt";
+    const fs::path backup_dir_file =         data_base / "backup_dir.txt";
 
-    const fs::path entry_dir_file =          data_base / "test_source_dirs.txt";
-    const fs::path backup_dir_file =         data_base / "test_backup_dir.txt";
+    // const fs::path entry_dir_file =          data_base / "test_source_dirs.txt";
+    // const fs::path backup_dir_file =         data_base / "test_backup_dir.txt";
 
     const fs::path all_backed_up_files =     data_base / tmp_base / "backup_files.txt";
 
